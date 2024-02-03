@@ -24,12 +24,14 @@ const showWinner = (userWin, compChoice, userChoice) => {
         msg.style.backgroundColor = '#4DA167'
         userScore ++
         user_score.innerText = userScore 
+        
     }
     else{
         msg.innerText = `You Lost. ${compChoice} beats  your ${userChoice}`
         msg.style.backgroundColor = '#F24236'
         compScore ++
         comp_score.innerText = compScore
+        
     }
 }
 
